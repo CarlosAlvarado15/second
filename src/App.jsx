@@ -44,6 +44,7 @@ function App() {
   }
 
   return (
+    <div className='body'>
     <div id='contenedor'>
       <nav>
         <input
@@ -67,6 +68,7 @@ function App() {
           ))
         }
       </div>
+    </div>
     </div>
   )
 }
